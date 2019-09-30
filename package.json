@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/dengdengfengba/Blog#readme",
   "dependencies": {
+    "leancloud-storage": "^3.15.0",
+    "valine": "^1.3.10",
     "vuepress": "^1.1.0"
   },
   "devDependencies": {
