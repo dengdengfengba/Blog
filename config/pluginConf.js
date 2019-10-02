@@ -6,4 +6,8 @@ module.exports = {
             buttonText: "刷新"
         }
     },
+    '@vuepress/back-to-top': true,
+    '@vuepress/google-analytics': {
+        'ga': 'UA-149266133-1'
+    }
 }

@@ -11,10 +11,13 @@ module.exports = {
       }
     },
     head: [
-      ['link', { rel: 'icon', href: '/favicon.ico' }],
-      ['link', { rel: 'manifest', href: '/manifest.json' }]
+      ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png'}],
+      ['link', { rel: 'icon', href: '/favicon-32x32.png'}],
+      ['link', { rel: 'manifest', href: '/manifest.json'}],
+      ['meta', { name: 'theme-color', content: '#ffffff'}]
     ],
     plugins: pluginConf,
+    base: '/Blog/',
     themeConfig: {
       lastUpdated: '上次更新',
       repo: 'dengdengfengba/Blog',
@@ -23,6 +26,6 @@ module.exports = {
       docsDir: 'docs',
       nav: navConf,
       sidebar: sidebarConf,
-      sidebarDepth: 2
+      // sidebarDepth: 2
     }
 }

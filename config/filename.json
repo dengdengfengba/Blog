@@ -1,0 +1,24 @@
+{
+    "web": {
+        "css": [""],
+        "javascript": [""]
+    },
+    "backend": [
+        ""
+    ],
+    "sql": [
+        ""
+    ],
+    "gis": {
+        "openlayer": [""]
+    },
+    "about": [
+        ""
+    ],
+    "wen": [
+        ""
+    ],
+    "guide": [
+        ""
+    ]
+}
