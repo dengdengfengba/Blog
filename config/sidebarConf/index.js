@@ -9,7 +9,8 @@ const backend = require('./backend/index');
 const sql = require('./sql/index');
 
 // gis
-const openlayer = require('./gis/openlayer');
+const OGC = require('./gis/OGC/index')
+const openlayers = require('./gis/openlayers/index');
 
 // 大杂烩
 const about = require('./about/index');
@@ -33,7 +34,8 @@ module.exports = {
     '/sql/': sql,
 
     // gis
-    '/gis/openlayer/': openlayer,
+    '/gis/OGC/': OGC,
+    '/gis/openlayers/': openlayers,
 
     // 大杂烩
     '/about/': about,

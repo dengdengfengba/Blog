@@ -1,7 +1,7 @@
 const utils = require('../../../../utils/index');
 const filename = require('../../../filename.json');
-const children = filename.web.css;
+const OGC = filename.gis.OGC;
 
 module.exports = [
-    utils.genSidebar('css 边框', children, false)
+    utils.genSidebar('OGC', OGC, false)
 ]

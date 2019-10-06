@@ -1,7 +1,7 @@
 const utils = require('../../../../utils/index');
 const filename = require('../../../filename.json');
-const openlayer = filename.gis.openlayer;
+const openlayers = filename.gis.openlayers;
 
 module.exports = [
-    utils.genSidebar('openlayer', openlayer, false)
+    utils.genSidebar('openlayers', openlayers, false)
 ]

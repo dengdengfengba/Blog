@@ -26,6 +26,5 @@ module.exports = {
       docsDir: 'docs',
       nav: navConf,
       sidebar: sidebarConf,
-      // sidebarDepth: 2
     }
 }

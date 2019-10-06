@@ -1,7 +1,17 @@
 {
     "web": {
         "css": [""],
-        "javascript": [""]
+        "javascript": [
+            "",
+            "array",
+            "array1",
+            "array2",
+            "object",
+            "object1",
+            "object2",
+            "object3",
+            "object4"
+        ]
     },
     "backend": [
         ""
@@ -10,7 +20,30 @@
         ""
     ],
     "gis": {
-        "openlayer": [""]
+        "OGC": [
+            ""
+        ],
+        "openlayers": [
+            "",
+            "map",
+            "view",
+            "layers",
+            "vector",
+            "source",
+            "style",
+            "control",
+            "interaction",
+            "draw1",
+            "draw2",
+            "overlay",
+            "popup",
+            "control1",
+            "event",
+            "event1",
+            "point1",
+            "point2",
+            "point3"
+        ]
     },
     "about": [
         ""
